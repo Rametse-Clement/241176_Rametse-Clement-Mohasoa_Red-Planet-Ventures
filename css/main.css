@@ -3,11 +3,46 @@ body{
   margin: 0;
   height: 100vh;
   width: 100%;
-  background-size: cover;
-  background-position: center;
+ 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
+
+
+
+nav {
+  background: black;                                                                  
+  margin: 0;                                                                          
+  padding: 0;                                                                         
+  position: absolute;                                                                 
+  width: 100%;
+}
+
+.topNav {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.topNav a {
+    float: Center;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.topNav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topNav a.active {
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+
 
 
 
@@ -17,7 +52,7 @@ body{
     flex-direction: row;
     font-size: 30 px;
     text-align: left;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: white;
     background-color: purple;
@@ -57,11 +92,6 @@ width: 100%;
 
 
 
-
-
-
-
-
 .flexContainer3 {
   display: inline-flex;
   align-items: center;
@@ -69,7 +99,7 @@ width: 100%;
   font-size: 30px;
   text-align: center;
   justify-content: center;
-  align-items: center;
+  align-items:normal;
   color: white;
   background-color: purple;    
 }
@@ -116,26 +146,8 @@ color:#012622
 
 }
 
-
 footer {
   background-color: #ece5f0;
-  color: #012620;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-footer {
-  background: color #ece5f0;;
   color: #012620;
   padding: 20px;
   display: flex;
@@ -143,21 +155,174 @@ footer {
   align-items: flex-start;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+footer {
+  background: color #ece5f0;;
+  color: #012620;
+  padding: 20px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: flex-start;
+}
 .column {
   flex: 1;
   padding: 10px;
 }
-
-
 .left-column img {
   width: 100%;
   height: auto;
-  
 }
 .right-column img {
   width: 25%;
   height: auto;
   margin-right: 5px;
 }
+
+
+
+
+                              /*Flights Page*/
+
+.flexContainer5 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30 px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+}
+
+.flexItem5 {
+  color: black;
+  padding: 5%;
+  flex: 50%;
+}
+
+.flexItem5 img {
+  width: 100%;
+}
+
+.flexContainer6 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: purple; 
+}
+
+.flexItem6 {
+  color: White;
+  padding: 5%;
+  flex: 50%;
+}
+
+.flexItem6 img {
+  width: 100%;
+}
+
+.flexContainer7 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: purple; 
+}
+
+.flexItem7 {
+color: White;
+padding: 5%;
+flex: 50%;
+}
+
+.flexItem7 img {
+width: 100%;
+}
+
+.flexContainer8 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: purple; 
+}
+
+.flexItem8 {
+color: White;
+padding: 5%;
+flex: 50%;
+}
+
+.flexItem8 img {
+width: 100%;
+}
+
+.flexContainer9 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: purple; 
+}
+
+.flexItem9 {
+color: White;
+padding: 5%;
+flex: 50%;
+}
+
+.flexItem9 img {
+width: 100%;
+}
+
+.flexContainer10 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: purple; 
+}
+
+.flexItem10 {
+color: White;
+padding: 5%;
+flex: 50%;
+}
+
+.flexItem10 img {
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
   
+
