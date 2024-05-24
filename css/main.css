@@ -31,7 +31,7 @@ body{
     background-image: url(../Assets/Images/headerbackBack.png);
     height: 300px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     position: relative;
 }
@@ -48,7 +48,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     text-align: center;
-    background-color: #f0f1f2b9;
+    background-color: #ffffff;
     border-radius: 35px;
     padding: 10px 30px;
     overflow: hidden;
@@ -57,7 +57,7 @@ body{
     justify-self: right;
 }
 .topNavText a {
-    color: #6503A6;
+    color: #6503d5;
     justify-content: center;
     align-items: center;
     padding: 14px 16px;
@@ -65,11 +65,11 @@ body{
     font-size: 17px;
 }
 .topNavText a:hover {
-    color: #460273;
+    color: #6503d5;
     font-weight: 900;
 }
 .topNavText a.active {
-    color: #460273;
+    color: #6503d5;
     font-weight: 900;
 }
 .search{
@@ -100,11 +100,11 @@ body{
 }
 @font-face{
     font-family: 'Porter Sans Block';
-    src: url(../Assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.woff) format("woff");
+    src: url(../Assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.woff);
 }
 .headerFlex {
     display: flex;
-    height: 800px;
+    height: 600px;
     padding: 6em;
     justify-content: flex-start;
     align-items: flex-end;
@@ -112,12 +112,12 @@ body{
 .flexItem h1{
     font-family: 'Porter Sans Block';
     font-size: 48px;
-    color: #E8222E;
+    color: #003b36;
 }
 .flexItem h2{
     font-family: 'Poppins' , sans-serif;
     font-size: 18px;
-    color: #6503A6;
+    color: #59114D;
 }
 .headerFlex2 {
     display: flex;
@@ -133,6 +133,7 @@ body{
 }
 
 /* Flights */
+
 .row4{
   display: flex;
   flex-direction: row;
@@ -151,13 +152,13 @@ body{
   font-family: 'Poppins' , sans-serif;
   font-size: 48px;
   font-weight: 500;
-  color: #460273;
+  color: #6503d5;
 }
 .text4 h2{
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #F2B705;
+  color: #6503d5;
   padding-left: 10px;
 }
 .text4 h3{
@@ -170,7 +171,7 @@ body{
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #460273;
+  color: #6503d5;
 }
 .text5{
   padding: 60px;
@@ -181,13 +182,13 @@ body{
   font-family: 'Poppins' , sans-serif;
   font-size: 48px;
   font-weight: 500;
-  color: #F0F1F2;
+  color: #ffffff;
 }
 .text5 h2{
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #F2B705;
+  color: #003b36;
 }
 .text5 h3{
   font-family: 'Poppins' , sans-serif;
@@ -202,7 +203,7 @@ body{
   color: #F0F1F2;
 }
 .spaceBetween{
-  background-color: #460273;
+  background-color: #6503d5;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -221,7 +222,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #460273;
+  background-color: #6503d5;
   width: 100%;
 }
 .row3{
@@ -240,21 +241,21 @@ body{
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #F0F1F2;
+  color: #ffffff;
   padding: 0 20px;
 }
 .row3 h2{
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #F0F1F2;
+  color: #ffffff;
   padding: 0 20px;
 }
 .row3 h3{
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #F0F1F2;
+  color: #ffffff;
   padding:  0 20px;
 }
 .row3 h4{
@@ -263,34 +264,34 @@ body{
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #F0F1F2;
+  color: #ffffff;
   padding: 20px 25px;
 }
 .row3 h5{
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #F0F1F2;
+  color: #ffffff;
   padding: 0 20px;
 }
 .row3 h6{
-  background-color: #f0f1f285;
+  background-color: #ece5f0;
   border-radius: 12px;
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #F0F1F2;
+  color: #ffffff;
   padding: 20px 25px;
   padding-right: 100px;
 }
 .verticalStripe1{
-  border-right: 1px solid #F0F1F2;
+  border-right: 1px solid #ffffff;
 }
 .coloumn1 h4{
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #46027397;
+  color: #6503d5;
   justify-content: flex-start;
   align-items: start;
   text-align: left;
@@ -300,7 +301,7 @@ body{
   font-family: 'Poppins' , sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #f0f1f298;
+  color: #f0f1f285;
   justify-content: flex-start;
   align-items: start;
   text-align: left;
@@ -324,7 +325,7 @@ body{
 .row5 img{
   padding: 20px 20px 20px 0;
   width: 15%;
-  border-right: 1px solid #460273;
+  border-right: 1px solid #6503d5;
 }
 .row6{
   font-family: 'Poppins' , sans-serif;
@@ -344,11 +345,11 @@ body{
 .row6 img{
   padding: 20px 20px 20px 0;
   width: 15%;
-  border-right: 1px solid #F0F1F2;
+  border-right: 1px solid #ffffff;
 }
 .button4 {
-  background-color: #E8222E;
-  color: #F0F1F2;
+  background-color: #012622;
+  color: #ffffff;
   padding: 15px 32px;
   margin-bottom: 32px;
   text-align: center;
@@ -366,7 +367,7 @@ body{
 }
 .button4:hover {
   background-color: #F2B705;
-  color: #460273;
+  color: #6503d5;
 }
 .actionContainer{
   display: flex;
@@ -445,14 +446,14 @@ body{
 .text1 h1{
     font-family: 'Poppins' , sans-serif;
     font-size: 48px;
-    color: #F0F1F2;
+    color: #ffffff;
     margin: 0;
 }
 .text1 p{
     font-family: 'Poppins' , sans-serif;
     font-size: 18px;
     font-weight: 300;
-    color: #F0F1F2;
+    color: #ffffff;
 }
 .text6{
     padding: 80px 30px;
@@ -481,7 +482,7 @@ body{
     font-family: 'Poppins' , sans-serif;
     font-size: 18px;
     font-weight: 300;
-    color: #F0F1F2;
+    color: #ffffff;
 }
 .map {
     height: 607px;
@@ -489,8 +490,8 @@ body{
     border-radius: 12px;
 }
 .button {
-    background-color: #E8222E;
-    color: #F0F1F2;
+    background-color: #6503d5;
+    color: #ffffff;
     padding: 15px 32px;
     text-align: center;
     width: 270px;
@@ -507,7 +508,7 @@ body{
 }
 .button:hover {
     background-color: #F2B705;
-    color: #460273;
+    color: #6503d5;
 }
 
 .backgroundColour1{
@@ -515,7 +516,7 @@ body{
     align-items: end;
     justify-content: end;
     padding: 0 100px;
-    background-color: #460273;
+    background-color: #6503d5;
 }
 .text2{
     padding: 20px;
@@ -538,24 +539,24 @@ body{
     font-family: 'Poppins' , sans-serif;
     font-size: 48px;
     font-weight: 700;
-    color: #460273;
+    color: #6503d5;
     margin: 0;
 }
 .text2 h1{
     font-family: 'Poppins' , sans-serif;
     font-size: 48px;
-    color: #460273;
+    color: #6503d5;
     margin: 0;
 }
 .text2 p{
     font-family: 'Poppins' , sans-serif;
     font-size: 18px;
     font-weight: 300;
-    color: #460273;
+    color: #6503d5;
 }
 .button {
-    background-color: #E8222E;
-    color: #F0F1F2;
+    background-color: #012622;
+    color: #ffffff;
     padding: 15px 32px;
     text-align: center;
     width: 270px;
@@ -572,10 +573,10 @@ body{
 }
 .button:hover {
     background-color: #F2B705;
-    color: #460273;
+    color: #6503d5;
 }
 .backgroundColour2{
-    background-color: #F0F1F2;
+    background-color: #ffffff;
 }
 .itemContainer2{
     display: flex;
@@ -599,11 +600,11 @@ body{
     font-family: 'Poppins' , sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #F0F1F2;
+    color: #ffffff;
 }
 .button2 {
-    background-color: #F0F1F2;
-    color: #6503A6;
+    background-color: #ffffff;
+    color: #6503d5;
     padding: 15px 32px;
     text-align: center;
     width: 270px;
@@ -620,97 +621,9 @@ body{
 }
 .button2:hover {
     background-color: #F2B705;
-    color: #460273;
+    color: #6503d5;
 }
 
-/* Form */
-.flexRight{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0em 4em;
-}
-.formContainer{
-    width: 100%;
-    margin: 0 auto;
-}
-#contactForm{
-    background-image: url(../assets/images/formBack.png);
-    background-size: cover;
-    background-position: center;
-    /*background-color: #f9f9f9;*/
-    padding: 2em 4em;
-    border-radius: 30px;
-    margin: 50px 0;
-}
-#contactForm h3{
-    color: #F0F1F2;
-    display: block;
-    font-family: 'Poppins' , sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-}
-#contactForm input, label, #contactForm textarea, #contactForm button{
-    font-family: 'Poppins' , sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: #F0F1F2;
-    text-align: left;
-}
-fieldset{
-    border: medium none !important;
-    margin: 0 0 10px;
-    min-width: 100%;
-    width: 100%;
-    padding: 0;
-    text-align: left;
-    margin: 15px 0;
-}
-#contactForm input, #contactForm textarea{
-    width: 100%;
-    border: 1px solid #460273;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    color: #000000;
-    margin: 0 0px 5px;
-    padding: 35px 0px 35px 25px;
-}
-::placeholder{
-    color: #460273;
-}
-#contactForm textarea{
-    height: 100px;
-    width: 100%;
-    resize: none;
-}
-#contactForm button{
-    cursor: pointer;
-    width: 50%;
-    border: none;
-    background-color: #460273;
-    color: #F0F1F2;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 16px;
-}
-#contactForm button:hover{
-    cursor: pointer;
-    width: 50%;
-    border: none;
-    background-color: #F2B705;
-    color: #460273;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 16px;
-}
-#contactForm input:hover, #contactForm textarea:hover{
-    background-color: #6503A6;
-    color: #F0F1F2;
-}
-#contactForm input:focus, #contactForm textarea:focus{
-    background-color: #460273;
-    color: #F0F1F2;
-}
 
 
 /* Footer */
@@ -725,11 +638,11 @@ fieldset{
     padding: 35px;
 }
 .row1 p{
-    color: #460273d5;
+    color: #6503d5;
     padding: 0px;
 }
 .row1 h1{
-    color: #460273;
+    color: #6503d5;
     font-size: 20px;
     font-weight: 500;
     padding: 0 30px;
@@ -756,12 +669,12 @@ fieldset{
     text-align: left;
 }
 .coloumn1 p{
-    color: #460273;
+    color: #6503d5;
     font-size: 18px;
     text-align: left;
 }
 .coloumn1 h1{
-    color: #460273;
+    color: #6503d5;
     font-size: 24px;
     text-align: left;
     justify-content: left;
@@ -771,7 +684,7 @@ fieldset{
     padding: 0;
 }
 .coloumn1 h1:hover{
-    color: #460273;
+    color: #6503d5;
     font-size: 24px;
     text-align: left;
     justify-content: left;
@@ -781,7 +694,7 @@ fieldset{
 }
 .coloumn1 h2{
     font-weight: 400;
-    color: #460273;
+    color: #6503d5;
     font-size: 18px;
     text-align: left;
     justify-content: left;
@@ -790,14 +703,14 @@ fieldset{
 .coloumn1 h2:hover{
     cursor: pointer;
     font-weight: 500;
-    color: #460273;
+    color: #6503d5;
     font-size: 18px;
     text-align: left;
     justify-content: left;
     align-items: start;
 }
 .coloumn1 a.active {
-    color: #460273;
+    color: #6503d5;
     font-weight: 900;
 }
 .row2 img{
@@ -807,8 +720,8 @@ fieldset{
 }
 hr {
 border-top: 2px solid;
-background-color: #F0F1F2;
-color: #6503a696;
+background-color: #ffffff;
+color: #6503d5;
 margin: 0;
 padding: 0;
 }
