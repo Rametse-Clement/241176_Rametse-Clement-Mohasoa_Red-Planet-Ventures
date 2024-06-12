@@ -520,7 +520,7 @@ body{
 }
 .text2{
     padding: 20px;
-    flex: 50%;          /* means that the image will be 50% of the screen*/
+    flex: 50%;          
     text-align: justify;
 }
 .text2 img{ 
@@ -625,8 +625,8 @@ body{
 }
 
 
-
 /* Footer */
+
 .row1{
     font-family: 'Poppins' , sans-serif;
     background-color: #F0F1F2;
